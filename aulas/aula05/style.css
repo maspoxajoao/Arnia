@@ -2,41 +2,70 @@
 
 *{
     margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    height: 100vh;
+    padding: 10% 0;
 }
 
 aside {
-    margin: auto;
     background-color: #dadfe2;
     width: 501px;
-    padding: 30px 80px;
+    height: 25%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 50px;
 }
 
+P{
+    margin: 15px;
+}
 
 img {
     width: 60px;
     height: auto;
-
+    margin-bottom: 15px;
+    margin-left: 10px;
 
 }
 
+#lateral{
+    display: flex;
 
-aside > p {
-
+    
 }
 
 #botao {
     background-color: blue;
-    border: 1px solid white;
+    border: 2px solid white;
     text-align: center;
     text-decoration: none;
     display: block;
     width: 98px;
+    height: 2vh;
+    align-items: center;
     color: white;
     padding: 8px;
     border-radius: 30px;
+    margin-left: 270px;
+    padding-bottom: 11px;
+    box-sizing: content-box;
 }
 
-caption > a{
-    background-color: aquamarine;
-    color: #3183FF;
+#ctt{
+    font-size: 1.em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
 }
+
+div > a {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    }
