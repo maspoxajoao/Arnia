@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+aside {
+    margin: auto;
+    background-color: #dadfe2;
+    width: 501px;
+    padding: 30px 80px;
+}
+
+
+img {
+    width: 60px;
+    height: auto;
+
+
+}
+
+
+aside > p {
+
+}
+
+#botao {
+    background-color: blue;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 98px;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+caption > a{
+    background-color: aquamarine;
+    color: #3183FF;
+}
