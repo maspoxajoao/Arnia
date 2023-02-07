@@ -1,0 +1,18 @@
+nav > ul > li{
+    margin-left:-35px;
+    list-style: none;
+    width: 110px;
+    border-right: 3px solid orange;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+   
+
+}
+
+nav > ul > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+    margin-left: 10px;
+}

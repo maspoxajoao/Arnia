@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    padding: 7% 0;
+    background-color: aqua;
+}
+
+main{
+    text-align: left;
+    color: #A20503;
+    width: 55vw;
+    height: 25%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px grey;
+
+}
+
+h1{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+
+main {
+    background-color:#EDEDED;
+}
+
+.foto{
+    width: 30px;
+    height: 30px;
+}
