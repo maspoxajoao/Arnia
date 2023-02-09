@@ -13,7 +13,7 @@ body {
 
 main {
     text-align: left;
-    width: 40vw;
+    width: 45vw;
     height: 70vh;
     padding: 25px;
     margin: auto;
@@ -36,9 +36,9 @@ h1 {
 }
 
 #tm{
-    font-size: 2.5em;
-    margin-top: 3em;
-    margin-bottom: 4em;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 #volta {
