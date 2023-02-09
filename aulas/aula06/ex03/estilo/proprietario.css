@@ -32,7 +32,7 @@ p {
     display: block;
     font-weight: bold;
     color: black;
-    font-size: 24px;
+    font-size: 3vw;
 }
 
 a { display: block;
@@ -40,7 +40,7 @@ a { display: block;
     margin-top: 10px;
     margin-left: 25px;
     margin-bottom: 40px;
-    font-size: 1.5em;
+    font-size: 2.5vw;
     display: inline-flex;
 }
 
@@ -58,6 +58,6 @@ img {
 
 #volta {
     color: gray;
-    font-size: 1.5em;
+    font-size: 1.8vw;
     margin-left: -10px;
 }
