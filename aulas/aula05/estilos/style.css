@@ -1,0 +1,88 @@
+
+
+input, textarea, select{
+  all: unset;
+  display: block;
+  width: 100%;
+  border: 1px solid #00A99D;
+  border-radius: 3px;
+}
+
+textarea{
+  resize: none;
+}
+
+input{
+  display: block;
+  width: 100;
+}
+
+img {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #343D48;
+  /* EM pega a referência de tamanho de fonte da tag pai */
+  font-size: 1em;
+}
+
+/* Uma maneira de selecionar uma tag a seguida de outra tag a */
+a + a {
+  display: block;
+}
+
+#phone {
+  text-decoration: none;
+  color: #343D48;
+  /* REM pega a referência de tamanho de fonte da raiz do projeto */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.2rem 0.8rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #00A99D;
+  font-family: 'DM Sans', sans-serif;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: #012f2c;
+  border-left: 3px solid #00A99D;
+  border-right: 3px solid #00A99D;
+}
+
+.title {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  all: unset;
+  margin-top: 16px;
+  background-color: #00A99D;
+  font-size: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  color: white;
+  border: 1px solid #012f2c;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.5rem;
+}

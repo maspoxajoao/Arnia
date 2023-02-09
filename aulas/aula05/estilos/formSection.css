@@ -1,0 +1,8 @@
+.formSection{
+    all: unset;
+    display: block;
+    padding: 1rem;
+    border: 1px solid #00A99D;
+    border-radius: 5px;
+    width: 100%;
+}
