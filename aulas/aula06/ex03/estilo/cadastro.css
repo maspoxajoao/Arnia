@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-height: 80vh;
+    padding: 7% 0;
+    background-color: lightgrey;
+
+}
+
+main {
+    text-align: left;
+    width: 50vw;
+    padding: 25px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px grey;
+    background-color: #ededed52;
+}
+
+h1 {
+    font-size: 4.3vw;
+    margin-bottom: 15px;
+    color: #A20503;
+}
+
+
+a {
+    color: #A20503;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 80rem;
+    font-size: 2vw;
+}
+
+
+
+
+label, select, input[type="text"],input[type="radio"] {
+    width: 10vw;
+    margin-bottom: 10px;
+}
+
+textarea {
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 10vh;
+    min-height: 10vh;
+}
+
+.sn {
+    width: 20vw;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  input[type="radio"] {
+    vertical-align: middle;
+
+  }
+
+#volta {
+    color: gray;
+    font-size: 2.5vw;
+    margin-left: -20px;
+}
