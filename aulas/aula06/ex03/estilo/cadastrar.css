@@ -13,7 +13,6 @@ body {
 
 main {
     text-align: left;
-    color: #A20503;
     width: 50vw;
     height: 70vh;
     padding: 25px;
@@ -21,26 +20,44 @@ main {
     border-radius: 5px;
     box-shadow: 2px 3px 3px grey;
     background-color: #ededed52;
-    }
-
-    main > ul > li{
-        list-style: none;
-        margin-bottom: 40px;
-        font-size: 4vw;
-    }
-
-h1 {
-    font-size: 2.3vw;
-    margin-bottom: 15px;
-    text-align: center;
 }
 
-
-a{
+h1 {
+    font-size: 4.3vw;
+    margin-bottom: 15px;
     color: #A20503;
 }
 
-#volta{
+
+a {
+    color: #A20503;
+}
+
+form {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 2.5vw;
+}
+
+label, input, select, textarea {
+    margin-bottom: 0.5em;
+}
+
+textarea {
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 10vh;
+    min-height: 10vh;
+}
+
+#botao {
+    width: 60px;
+    height: 20px;
+    margin-bottom: 2em;
+}
+
+#volta {
     color: gray;
     font-size: 2.5vw;
     margin-left: -20px;
