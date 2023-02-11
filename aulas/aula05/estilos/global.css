@@ -1,12 +1,10 @@
-index.html
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
-  height: 100vh;
-  background-color: #fdfdfd;
+html {
+  background-color: rgb(253, 253, 253);
   font-family: 'DM Sans', sans-serif;
 }

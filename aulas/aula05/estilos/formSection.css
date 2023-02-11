@@ -1,8 +1,14 @@
-.formSection{
-    all: unset;
-    display: block;
-    padding: 1rem;
-    border: 1px solid #00A99D;
-    border-radius: 5px;
-    width: 100%;
+.formSection {
+  all: unset;
+  display: block;
+  border: 1px solid #00A99D;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.sectionTitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
 }

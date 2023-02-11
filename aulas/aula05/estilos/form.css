@@ -1,20 +1,12 @@
-
-
-input, textarea, select{
-  all: unset;
+input, textarea, select {
   display: block;
   width: 100%;
-  border: 1px solid #00A99D;
+  border: 1px solid #027d75;
   border-radius: 3px;
 }
 
-textarea{
+textarea {
   resize: none;
-}
-
-input{
-  display: block;
-  width: 100;
 }
 
 img {
@@ -29,7 +21,7 @@ a {
 }
 
 /* Uma maneira de selecionar uma tag a seguida de outra tag a */
-a + a {
+a+a {
   display: block;
 }
 
