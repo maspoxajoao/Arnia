@@ -22,7 +22,11 @@ main {
     box-shadow: 2px 3px 3px grey;
     background-color: #ededed52;
     }
-
+div{
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+}
 
 h1 {
     font-size: 2.3em;

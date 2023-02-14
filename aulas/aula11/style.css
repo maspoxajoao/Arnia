@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkgray;
+}
+.pai{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+}
+
+.filho{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+}
