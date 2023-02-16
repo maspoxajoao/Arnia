@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF1EE;
+}
+
+
+header {
+    display: flex;
+    max-width: 95vw;
+    margin: auto;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header>a {
+    width: 100vw;
+    background-color: #FFFFFF;
+    box-shadow: 5px 1px 6px #b4b4b457;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+
+
+}
+
+header>a>div>img {
+    width: 2.8rem;
+    height: 2.8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 10px 10px;
+}
+
+header>a>div.img {}
+
+.texto {
+    font-size: 18px;
+    color: black;
+
+}
+
+.texto>p+p>span {
+    font-size: 14px;
+    color: orange;
+}
