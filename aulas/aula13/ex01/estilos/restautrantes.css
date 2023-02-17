@@ -13,20 +13,20 @@ header {
     padding: 20px;
     margin: auto;
     text-align: center;
-    color: orange;
+    color: darkorange;
     text-shadow: 0 0 0.5px #000;
 }
 
 main {
     display: flex;
-    max-width: 95vw;
+    max-width: 90vw;
     margin: auto;
     flex-direction: column;
     gap: 2rem;
 }
 
 main>a {
-    width: 100vw;
+    width: 90vw;
     background-color: #FFFFFF;
     box-shadow: 5px 1px 6px #b4b4b457;
     display: flex;
@@ -57,5 +57,5 @@ main>a>div.img {}
 
 .texto>p+p>span {
     font-size: 14px;
-    color: orange;
+    color: darkorange;
 }
