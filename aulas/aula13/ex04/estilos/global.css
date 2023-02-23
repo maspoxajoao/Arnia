@@ -2,3 +2,18 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 5rem;
+    align-items: center;
+}
+
+#flexnav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+}
