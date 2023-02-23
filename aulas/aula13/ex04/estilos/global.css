@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -11,9 +11,19 @@ header{
     align-items: center;
 }
 
-#flexnav{
+#flexnav {
     display: flex;
     text-align: center;
     align-items: center;
     font-family: 'Heebo', sans-serif;
+}
+
+header>div>nav {
+    
+}
+
+#lock {
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
