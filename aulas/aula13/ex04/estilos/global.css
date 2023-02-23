@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    max-width: 100vw;
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -39,11 +41,24 @@ header>div>button#lgn{
 }
 
 header>div>button#login{
-    
+    width: 148px;
+    height: 40px;
+    background-color: #3CC68A;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
 }
 
 #lock {
     display: flex;
     text-align: center;
     align-items: center;
+}
+
+main{
+    max-width:100%;
+    display: flex;
+    justify-content: space-between;
+
 }
