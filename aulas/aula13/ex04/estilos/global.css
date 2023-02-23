@@ -15,10 +15,30 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: 'Heebo', sans-serif;
 }
 
 header>div>nav {
+    display: unset;
+    font-family: 'Heebo', sans-serif;
+}
+
+header>div>nav>a, #lock{
+    text-decoration: none;
+    width: 400;
+    font-size: 15px;
+    line-height: 33px;
+    color: #02073E;
+    margin: 10px;
+}
+
+header>div>button#lgn{
+    all: unset;
+    margin: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+header>div>button#login{
     
 }
 
